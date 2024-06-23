@@ -1,0 +1,87 @@
+body {
+  background-color: hsl(30, 54%, 90%);
+
+  display: flex;
+  height: 100%;
+}
+.recipe-card {
+  background-color: hsl(0, 0%, 100%);
+  width: 650px;
+  height: 1600px;
+  margin: auto;
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+  border-radius: 10px;
+  padding: 2rem;
+  padding-bottom: 1rem;
+  font-family: "Outfit" sans-serif;
+}
+img {
+  width: 100%;
+  border-radius: 7px;
+}
+p {
+  color: hsl(30, 10%, 34%);
+}
+h1 {
+  color: hsl(24, 5%, 18%);
+}
+h3 {
+  color: hsl(332, 51%, 32%);
+}
+li,
+.preparation {
+  margin: 1rem;
+  color: hsl(30, 10%, 34%);
+  font-weight: 500;
+}
+.preparation {
+  background-color: hsl(30, 54%, 90%);
+  width: auto;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+.ingredient,
+.nutrition,
+.instruction {
+  color: hsl(14, 45%, 36%);
+}
+hr {
+  background: hsl(30, 10%, 34%);
+}
+#col2 {
+  font-weight: bold;
+  color: hsl(14, 45%, 36%);
+}
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+hr {
+  margin: 0;
+  height: 2px;
+  border: none;
+  background-color: hsl(30, 18%, 87%);
+}
+.tablefornutrtion {
+  width: auto;
+}
+@media only screen and (max-width: 1000px) and (min-width: 301px) {
+  body {
+    width: 100%;
+    margin: 0;
+    background-color: hsl(0, 0%, 100%);
+    font-family: "Outfit", sans-serif;
+  }
+  .recipe-card {
+    background-color: hsl(0, 0%, 100%);
+    width: auto;
+    height: auto;
+    margin: 0;
+  }
+  img {
+    margin: 0;
+    width: 100%;
+    border-radius: 0px;
+  }
+}
